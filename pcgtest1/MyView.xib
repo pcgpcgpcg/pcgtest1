@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyView" customModule="pcgtest1" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="374" height="261"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Custom white balance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tyj-zR-dg8">
+                    <rect key="frame" x="102" y="8" width="170" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Place gray card at the front of camera,Make Sure the full of screen" textAlignment="natural" lineBreakMode="characterWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="whS-69-6H0">
+                    <rect key="frame" x="18" y="62" width="338" height="40.666666666666657"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wf3-HD-Thf">
+                    <rect key="frame" x="179" y="211" width="53" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="confirm">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="onConfirmButtonClick:" destination="-1" eventType="touchUpInside" id="Fvj-cK-tIP"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pQj-Rg-YEa">
+                    <rect key="frame" x="0.0" y="41" width="374" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="wFa-BH-h2b"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <accessibility key="accessibilityConfiguration">
+                <bool key="isElement" value="YES"/>
+            </accessibility>
+            <constraints>
+                <constraint firstItem="whS-69-6H0" firstAttribute="top" secondItem="pQj-Rg-YEa" secondAttribute="bottom" constant="20" id="4dx-Hy-oSk"/>
+                <constraint firstAttribute="trailing" secondItem="whS-69-6H0" secondAttribute="trailing" constant="18" id="9EU-Ie-2PW"/>
+                <constraint firstItem="pQj-Rg-YEa" firstAttribute="top" secondItem="Tyj-zR-dg8" secondAttribute="bottom" constant="12" id="CgL-7d-KGd"/>
+                <constraint firstItem="pQj-Rg-YEa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Qmp-GK-dZa"/>
+                <constraint firstAttribute="trailing" secondItem="pQj-Rg-YEa" secondAttribute="trailing" id="f4U-FL-YKh"/>
+                <constraint firstItem="Tyj-zR-dg8" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="glQ-qa-S4B"/>
+                <constraint firstItem="Tyj-zR-dg8" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="8" id="jaP-FA-YGo"/>
+                <constraint firstItem="whS-69-6H0" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="lIR-v4-z9W"/>
+                <constraint firstItem="whS-69-6H0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="18" id="tRf-ae-YhR"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="102.89855072463769" y="355.84239130434787"/>
+        </view>
+    </objects>
+</document>

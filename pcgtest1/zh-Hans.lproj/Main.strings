@@ -1,0 +1,36 @@
+
+/* Class = "UINavigationItem"; title = "Monster LIst"; ObjectID = "4BW-fw-34J"; */
+"4BW-fw-34J.title" = "Monster LIst";
+
+/* Class = "UILabel"; text = "Hello World"; ObjectID = "5c6-Qc-ks7"; */
+"5c6-Qc-ks7.text" = "Hello World";
+
+/* Class = "UIButton"; normalTitle = "Chinese"; ObjectID = "AxS-q3-j1X"; */
+"AxS-q3-j1X.normalTitle" = "Chinese";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Ozq-Bj-y8x"; */
+"Ozq-Bj-y8x.text" = "Title";
+
+/* Class = "UILabel"; text = "Instant Developer"; ObjectID = "QIZ-YE-cth"; */
+"QIZ-YE-cth.text" = "Instant Developer";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "SCT-XT-uA5"; */
+"SCT-XT-uA5.title" = "Root View Controller";
+
+/* Class = "UILabel"; text = "测试点击下拉2"; ObjectID = "TLM-yF-mux"; */
+"TLM-yF-mux.text" = "测试点击下拉2";
+
+/* Class = "UILabel"; text = "15分钟内得到专家的帮助"; ObjectID = "V3d-Uj-diU"; */
+"V3d-Uj-diU.text" = "15分钟内得到专家的帮助";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "fTM-3z-xZL"; */
+"fTM-3z-xZL.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "gue-K2-0Hy"; */
+"gue-K2-0Hy.normalTitle" = "English";
+
+/* Class = "UILabel"; text = "测试点击1"; ObjectID = "hm2-AK-DYB"; */
+"hm2-AK-DYB.text" = "测试点击1";
+
+/* Class = "UILabel"; text = "Need help with coding problems? Register!\n"; ObjectID = "xYB-Ga-dVR"; */
+"xYB-Ga-dVR.text" = "Need help with coding problems? Register!\n";

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>kinecam.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>AC43D256C5E42D8C7D329CAEDF9BC2D17F470BC6</string>
+				<key>dateExpires</key>
+				<string>2021/2/9</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>AC43D256C5E42D8C7D329CAEDF9BC2D17F470BC6</string>
+						<key>dateExpires</key>
+						<string>2021/2/9</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>CocoaAsyncSocket.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>4544X88DQ4</string>
+						<key>name</key>
+						<string>Kinefinity Inc.</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>AC43D256C5E42D8C7D329CAEDF9BC2D17F470BC6</string>
+						<key>dateExpires</key>
+						<string>2021/2/9</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>CocoaMQTT.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>4544X88DQ4</string>
+						<key>name</key>
+						<string>Kinefinity Inc.</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>AC43D256C5E42D8C7D329CAEDF9BC2D17F470BC6</string>
+						<key>dateExpires</key>
+						<string>2021/2/9</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>Starscream.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>4544X88DQ4</string>
+						<key>name</key>
+						<string>Kinefinity Inc.</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>AC43D256C5E42D8C7D329CAEDF9BC2D17F470BC6</string>
+						<key>dateExpires</key>
+						<string>2021/2/9</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>SwiftyBeaver.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>4544X88DQ4</string>
+						<key>name</key>
+						<string>Kinefinity Inc.</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>AC43D256C5E42D8C7D329CAEDF9BC2D17F470BC6</string>
+						<key>dateExpires</key>
+						<string>2021/2/9</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>SwiftyJSON.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>4544X88DQ4</string>
+						<key>name</key>
+						<string>Kinefinity Inc.</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>4544X88DQ4.com.kinefinity.camera</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>4544X88DQ4</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>4544X88DQ4.com.kinefinity.camera</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Kinefinity.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>41726675-e43a-4e29-a669-68c2aea81819</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>4544X88DQ4</string>
+				<key>name</key>
+				<string>Kinefinity Inc.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

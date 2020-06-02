@@ -1,0 +1,808 @@
+2020-02-23 03:40:13 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fc6246ca6f0; archive(resolved)='<IDEArchive: 0x7fc6242e4260>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7fc6157a5280>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc61e053180; teamID='4544X88DQ4', teamName='Kinefinity Inc.', teamType='Company', username='pcgpcg@outlook.com', isFreeProvisioningTeam='0'>'>
+	Chain (13, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fc6246ca6f0; archive = '<IDEArchive: 0x7fc6242e4260>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc6157a5280>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc61e053180; teamID='4544X88DQ4', teamName='Kinefinity Inc.', teamType='Company', username='pcgpcg@outlook.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fc6246c9040; archive = '<IDEArchive: 0x7fc6242e4260>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc6157a5280>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc61e053180; teamID='4544X88DQ4', teamName='Kinefinity Inc.', teamType='Company', username='pcgpcg@outlook.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc6251bcb70; archive = '<IDEArchive: 0x7fc6242e4260>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc6157a5280>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc61e053180; teamID='4544X88DQ4', teamName='Kinefinity Inc.', teamType='Company', username='pcgpcg@outlook.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc6256c3f50; archive = '<IDEArchive: 0x7fc6242e4260>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc6157a5280>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc61e053180; teamID='4544X88DQ4', teamName='Kinefinity Inc.', teamType='Company', username='pcgpcg@outlook.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc615787ef0; archive = '<IDEArchive: 0x7fc6242e4260>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc6157a5280>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc61e053180; teamID='4544X88DQ4', teamName='Kinefinity Inc.', teamType='Company', username='pcgpcg@outlook.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc62574c8c0; archive = '<IDEArchive: 0x7fc6242e4260>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc6157a5280>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc61e053180; teamID='4544X88DQ4', teamName='Kinefinity Inc.', teamType='Company', username='pcgpcg@outlook.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc62570db50; archive = '<IDEArchive: 0x7fc6242e4260>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc6157a5280>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc61e053180; teamID='4544X88DQ4', teamName='Kinefinity Inc.', teamType='Company', username='pcgpcg@outlook.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc6159dd200; archive = '<IDEArchive: 0x7fc6242e4260>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc6157a5280>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc61e053180; teamID='4544X88DQ4', teamName='Kinefinity Inc.', teamType='Company', username='pcgpcg@outlook.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc625715c90; archive = '<IDEArchive: 0x7fc6242e4260>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc6157a5280>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc61e053180; teamID='4544X88DQ4', teamName='Kinefinity Inc.', teamType='Company', username='pcgpcg@outlook.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc6256c9420; archive = '<IDEArchive: 0x7fc6242e4260>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc6157a5280>', team='(null)'>
+	<IDEDistributionContext: 0x7fc6256c8050; archive = '<IDEArchive: 0x7fc6242e4260>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc6157a5280>', team='(null)'>
+	<IDEDistributionContext: 0x7fc625534d70; archive = '<IDEArchive: 0x7fc6242e4260>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fc6157a5280>', team='(null)'>
+	<IDEDistributionContext: 0x7fc6256a8250; archive = '<IDEArchive: 0x7fc6242e4260>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fc6246ca6f0>
+2020-02-23 03:40:13 +0000  Processing step: IDEDistributionCreateDestRootStep
+2020-02-23 03:40:13 +0000  Processing step: IDEDistributionCopyItemStep
+2020-02-23 03:40:13 +0000  Running /usr/bin/ditto '-V' '/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app'
+2020-02-23 03:40:13 +0000  >>> Copying /Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app 
+2020-02-23 03:40:13 +0000  copying file ./_CodeSignature/CodeResources ... 
+2020-02-23 03:40:13 +0000  16181 bytes for ./_CodeSignature/CodeResources
+2020-02-23 03:40:13 +0000  copying file ./AppIcon60x60@2x.png ... 
+2020-02-23 03:40:13 +0000  2905 bytes for ./AppIcon60x60@2x.png
+2020-02-23 03:40:13 +0000  copying file ./Base.lproj/Main.storyboardc/6pN-nh-odN-view-HGB-CC-Rcm.nib/objects-13.0+.nib ... 
+2020-02-23 03:40:13 +0000  18754 bytes for ./Base.lproj/Main.storyboardc/6pN-nh-odN-view-HGB-CC-Rcm.nib/objects-13.0+.nib
+2020-02-23 03:40:13 +0000  copying file ./Base.lproj/Main.storyboardc/6pN-nh-odN-view-HGB-CC-Rcm.nib/runtime.nib ... 
+2020-02-23 03:40:13 +0000  18747 bytes for ./Base.lproj/Main.storyboardc/6pN-nh-odN-view-HGB-CC-Rcm.nib/runtime.nib
+2020-02-23 03:40:13 +0000  copying file ./Base.lproj/Main.storyboardc/recordViewController.nib/objects-13.0+.nib ... 
+2020-02-23 03:40:13 +0000  1510 bytes for ./Base.lproj/Main.storyboardc/recordViewController.nib/objects-13.0+.nib
+copying file ./Base.lproj/Main.storyboardc/recordViewController.nib/runtime.nib ... 
+2020-02-23 03:40:13 +0000  1510 bytes for ./Base.lproj/Main.storyboardc/recordViewController.nib/runtime.nib
+2020-02-23 03:40:13 +0000  copying file ./Base.lproj/Main.storyboardc/historyViewController.nib/objects-13.0+.nib ... 
+2020-02-23 03:40:13 +0000  1123 bytes for ./Base.lproj/Main.storyboardc/historyViewController.nib/objects-13.0+.nib
+copying file ./Base.lproj/Main.storyboardc/historyViewController.nib/runtime.nib ... 
+2020-02-23 03:40:13 +0000  1123 bytes for ./Base.lproj/Main.storyboardc/historyViewController.nib/runtime.nib
+2020-02-23 03:40:13 +0000  copying file ./Base.lproj/Main.storyboardc/qdO-Am-WjT-view-8cc-Gl-Omi.nib/objects-13.0+.nib ... 
+2020-02-23 03:40:13 +0000  31719 bytes for ./Base.lproj/Main.storyboardc/qdO-Am-WjT-view-8cc-Gl-Omi.nib/objects-13.0+.nib
+2020-02-23 03:40:13 +0000  copying file ./Base.lproj/Main.storyboardc/qdO-Am-WjT-view-8cc-Gl-Omi.nib/runtime.nib ... 
+2020-02-23 03:40:13 +0000  31721 bytes for ./Base.lproj/Main.storyboardc/qdO-Am-WjT-view-8cc-Gl-Omi.nib/runtime.nib
+2020-02-23 03:40:13 +0000  copying file ./Base.lproj/Main.storyboardc/Vsy-fe-zI3-view-sYv-ZG-GCk.nib/objects-13.0+.nib ... 
+2020-02-23 03:40:13 +0000  23207 bytes for ./Base.lproj/Main.storyboardc/Vsy-fe-zI3-view-sYv-ZG-GCk.nib/objects-13.0+.nib
+2020-02-23 03:40:13 +0000  copying file ./Base.lproj/Main.storyboardc/Vsy-fe-zI3-view-sYv-ZG-GCk.nib/runtime.nib ... 
+2020-02-23 03:40:13 +0000  23218 bytes for ./Base.lproj/Main.storyboardc/Vsy-fe-zI3-view-sYv-ZG-GCk.nib/runtime.nib
+2020-02-23 03:40:13 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2020-02-23 03:40:13 +0000  325 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2020-02-23 03:40:13 +0000  copying file ./Base.lproj/Main.storyboardc/panelViewController.nib/objects-13.0+.nib ... 
+2020-02-23 03:40:13 +0000  1041 bytes for ./Base.lproj/Main.storyboardc/panelViewController.nib/objects-13.0+.nib
+2020-02-23 03:40:13 +0000  copying file ./Base.lproj/Main.storyboardc/panelViewController.nib/runtime.nib ... 
+2020-02-23 03:40:13 +0000  1041 bytes for ./Base.lproj/Main.storyboardc/panelViewController.nib/runtime.nib
+2020-02-23 03:40:13 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib ... 
+2020-02-23 03:40:13 +0000  2428 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib
+2020-02-23 03:40:13 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib ... 
+2020-02-23 03:40:13 +0000  2430 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib
+2020-02-23 03:40:13 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib ... 
+2020-02-23 03:40:13 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib
+2020-02-23 03:40:13 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib ... 
+2020-02-23 03:40:13 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib
+2020-02-23 03:40:13 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2020-02-23 03:40:13 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2020-02-23 03:40:13 +0000  copying file ./Assets.car ... 
+2020-02-23 03:40:13 +0000  698511 bytes for ./Assets.car
+2020-02-23 03:40:13 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2020-02-23 03:40:13 +0000  3732 bytes for ./AppIcon76x76@2x~ipad.png
+2020-02-23 03:40:13 +0000  copying file ./Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources ... 
+2020-02-23 03:40:13 +0000  1798 bytes for ./Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources
+2020-02-23 03:40:13 +0000  copying file ./Frameworks/SwiftyJSON.framework/SwiftyJSON ... 
+2020-02-23 03:40:13 +0000  1014096 bytes for ./Frameworks/SwiftyJSON.framework/SwiftyJSON
+2020-02-23 03:40:13 +0000  copying file ./Frameworks/SwiftyJSON.framework/Info.plist ... 
+2020-02-23 03:40:13 +0000  742 bytes for ./Frameworks/SwiftyJSON.framework/Info.plist
+copying file ./Frameworks/libswiftCoreImage.dylib ... 
+2020-02-23 03:40:13 +0000  335072 bytes for ./Frameworks/libswiftCoreImage.dylib
+2020-02-23 03:40:13 +0000  copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+2020-02-23 03:40:13 +0000  400112 bytes for ./Frameworks/libswiftObjectiveC.dylib
+2020-02-23 03:40:13 +0000  copying file ./Frameworks/CocoaMQTT.framework/_CodeSignature/CodeResources ... 
+2020-02-23 03:40:13 +0000  1798 bytes for ./Frameworks/CocoaMQTT.framework/_CodeSignature/CodeResources
+2020-02-23 03:40:13 +0000  copying file ./Frameworks/CocoaMQTT.framework/CocoaMQTT ... 
+2020-02-23 03:40:13 +0000  1121056 bytes for ./Frameworks/CocoaMQTT.framework/CocoaMQTT
+2020-02-23 03:40:13 +0000  copying file ./Frameworks/CocoaMQTT.framework/Info.plist ... 
+2020-02-23 03:40:13 +0000  740 bytes for ./Frameworks/CocoaMQTT.framework/Info.plist
+copying file ./Frameworks/libswiftCore.dylib ... 
+2020-02-23 03:40:13 +0000  23297568 bytes for ./Frameworks/libswiftCore.dylib
+copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+2020-02-23 03:40:13 +0000  857648 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+copying file ./Frameworks/libswiftUIKit.dylib ... 
+655616 bytes for ./Frameworks/libswiftUIKit.dylib
+copying file ./Frameworks/libswiftMetal.dylib ... 
+2020-02-23 03:40:13 +0000  395696 bytes for ./Frameworks/libswiftMetal.dylib
+copying file ./Frameworks/libswiftDispatch.dylib ... 
+2020-02-23 03:40:13 +0000  1377360 bytes for ./Frameworks/libswiftDispatch.dylib
+2020-02-23 03:40:13 +0000  copying file ./Frameworks/libswiftos.dylib ... 
+2020-02-23 03:40:13 +0000  396976 bytes for ./Frameworks/libswiftos.dylib
+2020-02-23 03:40:13 +0000  copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+2020-02-23 03:40:13 +0000  335280 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+2020-02-23 03:40:13 +0000  copying file ./Frameworks/Starscream.framework/_CodeSignature/CodeResources ... 
+2020-02-23 03:40:13 +0000  1798 bytes for ./Frameworks/Starscream.framework/_CodeSignature/CodeResources
+2020-02-23 03:40:13 +0000  copying file ./Frameworks/Starscream.framework/Starscream ... 
+2020-02-23 03:40:13 +0000  1822800 bytes for ./Frameworks/Starscream.framework/Starscream
+2020-02-23 03:40:13 +0000  copying file ./Frameworks/Starscream.framework/Info.plist ... 
+742 bytes for ./Frameworks/Starscream.framework/Info.plist
+2020-02-23 03:40:13 +0000  copying file ./Frameworks/CocoaAsyncSocket.framework/_CodeSignature/CodeResources ... 
+2020-02-23 03:40:13 +0000  1798 bytes for ./Frameworks/CocoaAsyncSocket.framework/_CodeSignature/CodeResources
+2020-02-23 03:40:13 +0000  copying file ./Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket ... 
+2020-02-23 03:40:13 +0000  1304480 bytes for ./Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket
+2020-02-23 03:40:13 +0000  copying file ./Frameworks/CocoaAsyncSocket.framework/Info.plist ... 
+2020-02-23 03:40:13 +0000  756 bytes for ./Frameworks/CocoaAsyncSocket.framework/Info.plist
+copying file ./Frameworks/libswiftDarwin.dylib ... 
+2020-02-23 03:40:13 +0000  499744 bytes for ./Frameworks/libswiftDarwin.dylib
+2020-02-23 03:40:13 +0000  copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+2020-02-23 03:40:13 +0000  338256 bytes for ./Frameworks/libswiftQuartzCore.dylib
+2020-02-23 03:40:13 +0000  copying file ./Frameworks/SwiftyBeaver.framework/_CodeSignature/CodeResources ... 
+2020-02-23 03:40:13 +0000  1798 bytes for ./Frameworks/SwiftyBeaver.framework/_CodeSignature/CodeResources
+2020-02-23 03:40:13 +0000  copying file ./Frameworks/SwiftyBeaver.framework/SwiftyBeaver ... 
+2020-02-23 03:40:13 +0000  1865936 bytes for ./Frameworks/SwiftyBeaver.framework/SwiftyBeaver
+2020-02-23 03:40:13 +0000  copying file ./Frameworks/SwiftyBeaver.framework/Info.plist ... 
+746 bytes for ./Frameworks/SwiftyBeaver.framework/Info.plist
+copying file ./Frameworks/libswiftNetwork.dylib ... 
+2020-02-23 03:40:13 +0000  1686368 bytes for ./Frameworks/libswiftNetwork.dylib
+2020-02-23 03:40:13 +0000  copying file ./Frameworks/libswiftFoundation.dylib ... 
+2020-02-23 03:40:13 +0000  11552336 bytes for ./Frameworks/libswiftFoundation.dylib
+2020-02-23 03:40:13 +0000  copying file ./embedded.mobileprovision ... 
+9786 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+1523 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+8 bytes for ./PkgInfo
+copying file ./Kinefinity ... 
+2020-02-23 03:40:13 +0000  3737536 bytes for ./Kinefinity
+2020-02-23 03:40:13 +0000  /usr/bin/ditto exited with 0
+2020-02-23 03:40:13 +0000  Processing step: IDEDistributionEmbedProfileStep
+2020-02-23 03:40:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc62468c9b0; bundleID='org.cocoapods.CocoaAsyncSocket', path='<DVTFilePath:0x7fc62513fb60:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/CocoaAsyncSocket.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc62468e0d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6256be3e0; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='org.cocoapods.CocoaAsyncSocket', executablePath='<DVTFilePath:0x7fc6148cc700:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc625834070; bundleID='org.cocoapods.CocoaMQTT', path='<DVTFilePath:0x7fc6157b05a0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/CocoaMQTT.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc62468d740; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6256be3e0; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='org.cocoapods.CocoaMQTT', executablePath='<DVTFilePath:0x7fc6244f2a20:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/CocoaMQTT.framework/CocoaMQTT'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc62582d460; bundleID='org.cocoapods.Starscream', path='<DVTFilePath:0x7fc615b39d10:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/Starscream.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc62571f750; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6256be3e0; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='org.cocoapods.Starscream', executablePath='<DVTFilePath:0x7fc624582010:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/Starscream.framework/Starscream'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc6258295d0; bundleID='org.cocoapods.SwiftyBeaver', path='<DVTFilePath:0x7fc6157be1a0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/SwiftyBeaver.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc6256edb50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6256be3e0; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='org.cocoapods.SwiftyBeaver', executablePath='<DVTFilePath:0x7fc6157bd030:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/SwiftyBeaver.framework/SwiftyBeaver'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc625827210; bundleID='org.cocoapods.SwiftyJSON', path='<DVTFilePath:0x7fc6157ca7a0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/SwiftyJSON.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc6246261d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6256be3e0; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='org.cocoapods.SwiftyJSON', executablePath='<DVTFilePath:0x7fc625811660:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/SwiftyJSON.framework/SwiftyJSON'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc6256f7270; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7fc625150900:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc6256f0ae0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6251b7430; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7fc625150900:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc62572ffe0; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7fc6251bb1f0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc62572b420; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6251b7430; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7fc6251bb1f0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc6256f66a0; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7fc625822c90:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc62582e000; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6251b7430; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7fc625822c90:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc6256f1a00; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x7fc61593cc60:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc625715290; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6251b7430; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x7fc61593cc60:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc6256f73b0; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7fc6155630b0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc6256f0c60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6251b7430; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7fc6155630b0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc6136b9ca0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7fc6251bc8b0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc625738ae0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6251b7430; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7fc6251bc8b0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc62573e4f0; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7fc625715040:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc62459bb50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6251b7430; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7fc625715040:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc625738810; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x7fc6251b9600:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc625737450; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6251b7430; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x7fc6251b9600:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc62572e5f0; bundleID='com.apple.dt.runtime.swiftNetwork', path='<DVTFilePath:0x7fc6256a64c0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftNetwork.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc625724650; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6251b7430; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftNetwork', executablePath='<DVTFilePath:0x7fc6256a64c0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftNetwork.dylib'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc62583c890; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7fc6255de8e0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc625738b20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6251b7430; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7fc6255de8e0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc6256e89e0; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x7fc6256a63d0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc6251b4a70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6251b7430; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x7fc6256a63d0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc6256f0240; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x7fc6255de030:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc6256f1a70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6251b7430; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x7fc6255de030:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc6256d3f60; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x7fc6242e5c10:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc625713b20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6251b7430; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x7fc6242e5c10:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2020-02-23 03:40:13 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2020-02-23 03:40:13 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2020-02-23 03:40:13 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-02-23 03:40:13 +0000  Processing step: IDEDistributionSymbolsStep
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2020-02-23 03:40:13 +0000  Processing step: IDEDistributionAppThinningStep
+2020-02-23 03:40:13 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2020-02-23 03:40:13 +0000  Processing step: IDEDistributionArchThinningStep
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket' '-verify_arch' 'arm64e'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-02-23 03:40:13 +0000  Skipping architecture thinning for item "CocoaAsyncSocket" because arch "arm64e" wasn't found
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/CocoaMQTT.framework/CocoaMQTT' '-verify_arch' 'arm64e'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-02-23 03:40:13 +0000  Skipping architecture thinning for item "CocoaMQTT" because arch "arm64e" wasn't found
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/Starscream.framework/Starscream' '-verify_arch' 'arm64e'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-02-23 03:40:13 +0000  Skipping architecture thinning for item "Starscream" because arch "arm64e" wasn't found
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/SwiftyBeaver.framework/SwiftyBeaver' '-verify_arch' 'arm64e'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-02-23 03:40:13 +0000  Skipping architecture thinning for item "SwiftyBeaver" because arch "arm64e" wasn't found
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/SwiftyJSON.framework/SwiftyJSON' '-verify_arch' 'arm64e'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-02-23 03:40:13 +0000  Skipping architecture thinning for item "SwiftyJSON" because arch "arm64e" wasn't found
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftCore.dylib' '-verify_arch' 'arm64e'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftCore.dylib'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-02-23 03:40:13 +0000  Successfully thinned item "libswiftCore.dylib", arch "arm64e"
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftCoreFoundation.dylib' '-verify_arch' 'arm64e'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftCoreFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftCoreFoundation.dylib'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-02-23 03:40:13 +0000  Successfully thinned item "libswiftCoreFoundation.dylib", arch "arm64e"
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftCoreGraphics.dylib' '-verify_arch' 'arm64e'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftCoreGraphics.dylib' '-remove' 'arm64e' '-output' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftCoreGraphics.dylib'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-02-23 03:40:13 +0000  Successfully thinned item "libswiftCoreGraphics.dylib", arch "arm64e"
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftCoreImage.dylib' '-verify_arch' 'arm64e'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftCoreImage.dylib' '-remove' 'arm64e' '-output' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftCoreImage.dylib'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-02-23 03:40:13 +0000  Successfully thinned item "libswiftCoreImage.dylib", arch "arm64e"
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftDarwin.dylib' '-verify_arch' 'arm64e'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftDarwin.dylib' '-remove' 'arm64e' '-output' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftDarwin.dylib'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-02-23 03:40:13 +0000  Successfully thinned item "libswiftDarwin.dylib", arch "arm64e"
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftDispatch.dylib' '-verify_arch' 'arm64e'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftDispatch.dylib' '-remove' 'arm64e' '-output' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftDispatch.dylib'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-02-23 03:40:13 +0000  Successfully thinned item "libswiftDispatch.dylib", arch "arm64e"
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftFoundation.dylib' '-verify_arch' 'arm64e'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftFoundation.dylib'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-02-23 03:40:13 +0000  Successfully thinned item "libswiftFoundation.dylib", arch "arm64e"
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftMetal.dylib' '-verify_arch' 'arm64e'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftMetal.dylib' '-remove' 'arm64e' '-output' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftMetal.dylib'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-02-23 03:40:13 +0000  Successfully thinned item "libswiftMetal.dylib", arch "arm64e"
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftNetwork.dylib' '-verify_arch' 'arm64e'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftNetwork.dylib' '-remove' 'arm64e' '-output' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftNetwork.dylib'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-02-23 03:40:13 +0000  Successfully thinned item "libswiftNetwork.dylib", arch "arm64e"
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftObjectiveC.dylib' '-verify_arch' 'arm64e'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftObjectiveC.dylib' '-remove' 'arm64e' '-output' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftObjectiveC.dylib'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-02-23 03:40:13 +0000  Successfully thinned item "libswiftObjectiveC.dylib", arch "arm64e"
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftQuartzCore.dylib' '-verify_arch' 'arm64e'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftQuartzCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftQuartzCore.dylib'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-02-23 03:40:13 +0000  Successfully thinned item "libswiftQuartzCore.dylib", arch "arm64e"
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftUIKit.dylib' '-verify_arch' 'arm64e'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftUIKit.dylib' '-remove' 'arm64e' '-output' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftUIKit.dylib'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-02-23 03:40:13 +0000  Successfully thinned item "libswiftUIKit.dylib", arch "arm64e"
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftos.dylib' '-verify_arch' 'arm64e'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftos.dylib' '-remove' 'arm64e' '-output' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftos.dylib'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-02-23 03:40:13 +0000  Successfully thinned item "libswiftos.dylib", arch "arm64e"
+2020-02-23 03:40:13 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Kinefinity' '-verify_arch' 'arm64e'
+2020-02-23 03:40:13 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-02-23 03:40:13 +0000  Skipping architecture thinning for item "Kinefinity" because arch "arm64e" wasn't found
+2020-02-23 03:40:13 +0000  Processing step: IDEDistributionODRStep
+2020-02-23 03:40:13 +0000  Processing step: IDEDistributionStripXattrsStep
+2020-02-23 03:40:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc62468c9b0; bundleID='org.cocoapods.CocoaAsyncSocket', path='<DVTFilePath:0x7fc62513fb60:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/CocoaAsyncSocket.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc62468e0d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc625780c10; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='org.cocoapods.CocoaAsyncSocket', executablePath='<DVTFilePath:0x7fc6148cc700:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc625834070; bundleID='org.cocoapods.CocoaMQTT', path='<DVTFilePath:0x7fc6157b05a0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/CocoaMQTT.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc62468d740; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6257bddb0; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='org.cocoapods.CocoaMQTT', executablePath='<DVTFilePath:0x7fc6244f2a20:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/CocoaMQTT.framework/CocoaMQTT'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc62582d460; bundleID='org.cocoapods.Starscream', path='<DVTFilePath:0x7fc615b39d10:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/Starscream.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc62571f750; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc62574f570; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='org.cocoapods.Starscream', executablePath='<DVTFilePath:0x7fc624582010:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/Starscream.framework/Starscream'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc6258295d0; bundleID='org.cocoapods.SwiftyBeaver', path='<DVTFilePath:0x7fc6157be1a0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/SwiftyBeaver.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc6256edb50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6258459b0; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='org.cocoapods.SwiftyBeaver', executablePath='<DVTFilePath:0x7fc6157bd030:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/SwiftyBeaver.framework/SwiftyBeaver'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc625827210; bundleID='org.cocoapods.SwiftyJSON', path='<DVTFilePath:0x7fc6157ca7a0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/SwiftyJSON.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc6246261d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc62574f810; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='org.cocoapods.SwiftyJSON', executablePath='<DVTFilePath:0x7fc625811660:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/SwiftyJSON.framework/SwiftyJSON'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc6256f7270; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7fc625150900:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc6256f0ae0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6257bd8e0; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7fc625150900:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc62572ffe0; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7fc6251bb1f0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc62572b420; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc625750800; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7fc6251bb1f0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc6256f66a0; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7fc625822c90:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc62582e000; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc625780750; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7fc625822c90:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc6256f1a00; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x7fc61593cc60:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc625715290; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6257ac5c0; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x7fc61593cc60:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc6256f73b0; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7fc6155630b0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc6256f0c60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6245c77a0; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7fc6155630b0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc6136b9ca0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7fc6251bc8b0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc625738ae0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6258459b0; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7fc6251bc8b0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc62573e4f0; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7fc625715040:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc62459bb50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6257bd980; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7fc625715040:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc625738810; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x7fc6251b9600:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc625737450; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6257abab0; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x7fc6251b9600:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc62572e5f0; bundleID='com.apple.dt.runtime.swiftNetwork', path='<DVTFilePath:0x7fc6256a64c0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftNetwork.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc625724650; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6257a0100; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftNetwork', executablePath='<DVTFilePath:0x7fc6256a64c0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftNetwork.dylib'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc62583c890; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7fc6255de8e0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc625738b20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc625782400; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7fc6255de8e0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc6256e89e0; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x7fc6256a63d0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc6251b4a70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc62585afe0; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x7fc6256a63d0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc6256f0240; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x7fc6255de030:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc6256f1a70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6257be320; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x7fc6255de030:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc6256d3f60; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x7fc6242e5c10:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc625713b20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc625780750; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x7fc6242e5c10:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'>
+2020-02-23 03:40:13 +0000  Running /usr/bin/xattr '-crs' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app'
+2020-02-23 03:40:14 +0000  /usr/bin/xattr exited with 0
+2020-02-23 03:40:14 +0000  Processing step: IDEDistributionCodesignStep
+2020-02-23 03:40:14 +0000  Entitlements for <IDEDistributionItem: 0x7fc62468c9b0; bundleID='org.cocoapods.CocoaAsyncSocket', path='<DVTFilePath:0x7fc62513fb60:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/CocoaAsyncSocket.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc62468e0d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6257808e0; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='org.cocoapods.CocoaAsyncSocket', executablePath='<DVTFilePath:0x7fc6148cc700:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket'>', hardenedRuntime='0'>'>: {
+}
+2020-02-23 03:40:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc62468c9b0; bundleID='org.cocoapods.CocoaAsyncSocket', path='<DVTFilePath:0x7fc62513fb60:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/CocoaAsyncSocket.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc62468e0d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc625781060; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='org.cocoapods.CocoaAsyncSocket', executablePath='<DVTFilePath:0x7fc6148cc700:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket'>', hardenedRuntime='0'>'> to: /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~HIefzT
+2020-02-23 03:40:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'AC43D256C5E42D8C7D329CAEDF9BC2D17F470BC6' '--entitlements' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~HIefzT' '--preserve-metadata=identifier,flags,runtime' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/CocoaAsyncSocket.framework'
+2020-02-23 03:40:14 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/CocoaAsyncSocket.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.CocoaAsyncSocket]
+2020-02-23 03:40:14 +0000  /usr/bin/codesign exited with 0
+2020-02-23 03:40:14 +0000  Entitlements for <IDEDistributionItem: 0x7fc625834070; bundleID='org.cocoapods.CocoaMQTT', path='<DVTFilePath:0x7fc6157b05a0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/CocoaMQTT.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc62468d740; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc62585dff0; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='org.cocoapods.CocoaMQTT', executablePath='<DVTFilePath:0x7fc6244f2a20:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/CocoaMQTT.framework/CocoaMQTT'>', hardenedRuntime='0'>'>: {
+}
+2020-02-23 03:40:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc625834070; bundleID='org.cocoapods.CocoaMQTT', path='<DVTFilePath:0x7fc6157b05a0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/CocoaMQTT.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc62468d740; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc610bafbb0; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='org.cocoapods.CocoaMQTT', executablePath='<DVTFilePath:0x7fc6244f2a20:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/CocoaMQTT.framework/CocoaMQTT'>', hardenedRuntime='0'>'> to: /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~QidPgn
+2020-02-23 03:40:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'AC43D256C5E42D8C7D329CAEDF9BC2D17F470BC6' '--entitlements' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~QidPgn' '--preserve-metadata=identifier,flags,runtime' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/CocoaMQTT.framework'
+2020-02-23 03:40:14 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/CocoaMQTT.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.CocoaMQTT]
+2020-02-23 03:40:14 +0000  /usr/bin/codesign exited with 0
+2020-02-23 03:40:14 +0000  Entitlements for <IDEDistributionItem: 0x7fc62582d460; bundleID='org.cocoapods.Starscream', path='<DVTFilePath:0x7fc615b39d10:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/Starscream.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc62571f750; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc625769020; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='org.cocoapods.Starscream', executablePath='<DVTFilePath:0x7fc624582010:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/Starscream.framework/Starscream'>', hardenedRuntime='0'>'>: {
+}
+2020-02-23 03:40:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc62582d460; bundleID='org.cocoapods.Starscream', path='<DVTFilePath:0x7fc615b39d10:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/Starscream.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc62571f750; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc625781830; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='org.cocoapods.Starscream', executablePath='<DVTFilePath:0x7fc624582010:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/Starscream.framework/Starscream'>', hardenedRuntime='0'>'> to: /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~YsXImH
+2020-02-23 03:40:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'AC43D256C5E42D8C7D329CAEDF9BC2D17F470BC6' '--entitlements' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~YsXImH' '--preserve-metadata=identifier,flags,runtime' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/Starscream.framework'
+2020-02-23 03:40:14 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/Starscream.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.Starscream]
+2020-02-23 03:40:14 +0000  /usr/bin/codesign exited with 0
+2020-02-23 03:40:14 +0000  Entitlements for <IDEDistributionItem: 0x7fc6258295d0; bundleID='org.cocoapods.SwiftyBeaver', path='<DVTFilePath:0x7fc6157be1a0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/SwiftyBeaver.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc6256edb50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc625769020; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='org.cocoapods.SwiftyBeaver', executablePath='<DVTFilePath:0x7fc6157bd030:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/SwiftyBeaver.framework/SwiftyBeaver'>', hardenedRuntime='0'>'>: {
+}
+2020-02-23 03:40:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc6258295d0; bundleID='org.cocoapods.SwiftyBeaver', path='<DVTFilePath:0x7fc6157be1a0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/SwiftyBeaver.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc6256edb50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc625781380; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='org.cocoapods.SwiftyBeaver', executablePath='<DVTFilePath:0x7fc6157bd030:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/SwiftyBeaver.framework/SwiftyBeaver'>', hardenedRuntime='0'>'> to: /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~0O8GhX
+2020-02-23 03:40:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'AC43D256C5E42D8C7D329CAEDF9BC2D17F470BC6' '--entitlements' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~0O8GhX' '--preserve-metadata=identifier,flags,runtime' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/SwiftyBeaver.framework'
+2020-02-23 03:40:14 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/SwiftyBeaver.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.SwiftyBeaver]
+2020-02-23 03:40:14 +0000  /usr/bin/codesign exited with 0
+2020-02-23 03:40:14 +0000  Entitlements for <IDEDistributionItem: 0x7fc625827210; bundleID='org.cocoapods.SwiftyJSON', path='<DVTFilePath:0x7fc6157ca7a0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/SwiftyJSON.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc6246261d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc62574c3c0; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='org.cocoapods.SwiftyJSON', executablePath='<DVTFilePath:0x7fc625811660:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/SwiftyJSON.framework/SwiftyJSON'>', hardenedRuntime='0'>'>: {
+}
+2020-02-23 03:40:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc625827210; bundleID='org.cocoapods.SwiftyJSON', path='<DVTFilePath:0x7fc6157ca7a0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/SwiftyJSON.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc6246261d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc625777f70; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='org.cocoapods.SwiftyJSON', executablePath='<DVTFilePath:0x7fc625811660:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/SwiftyJSON.framework/SwiftyJSON'>', hardenedRuntime='0'>'> to: /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~zjA8b7
+2020-02-23 03:40:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'AC43D256C5E42D8C7D329CAEDF9BC2D17F470BC6' '--entitlements' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~zjA8b7' '--preserve-metadata=identifier,flags,runtime' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/SwiftyJSON.framework'
+2020-02-23 03:40:14 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/SwiftyJSON.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.SwiftyJSON]
+2020-02-23 03:40:14 +0000  /usr/bin/codesign exited with 0
+2020-02-23 03:40:14 +0000  Entitlements for <IDEDistributionItem: 0x7fc6256f7270; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7fc625150900:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc6256f0ae0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6258522b0; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7fc625150900:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>: {
+}
+2020-02-23 03:40:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc6256f7270; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7fc625150900:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc6256f0ae0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6257ac040; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7fc625150900:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'> to: /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~IVMF1i
+2020-02-23 03:40:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'AC43D256C5E42D8C7D329CAEDF9BC2D17F470BC6' '--entitlements' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~IVMF1i' '--preserve-metadata=identifier,flags,runtime' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftCore.dylib'
+2020-02-23 03:40:14 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftCore.dylib: replacing existing signature
+2020-02-23 03:40:14 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2020-02-23 03:40:14 +0000  /usr/bin/codesign exited with 0
+2020-02-23 03:40:14 +0000  Entitlements for <IDEDistributionItem: 0x7fc62572ffe0; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7fc6251bb1f0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc62572b420; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6257828d0; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7fc6251bb1f0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>: {
+}
+2020-02-23 03:40:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc62572ffe0; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7fc6251bb1f0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc62572b420; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc625782230; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7fc6251bb1f0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'> to: /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~C4TeQV
+2020-02-23 03:40:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'AC43D256C5E42D8C7D329CAEDF9BC2D17F470BC6' '--entitlements' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~C4TeQV' '--preserve-metadata=identifier,flags,runtime' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftCoreFoundation.dylib'
+2020-02-23 03:40:14 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2020-02-23 03:40:14 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2020-02-23 03:40:14 +0000  /usr/bin/codesign exited with 0
+2020-02-23 03:40:14 +0000  Entitlements for <IDEDistributionItem: 0x7fc6256f66a0; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7fc625822c90:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc62582e000; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6246a2330; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7fc625822c90:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>: {
+}
+2020-02-23 03:40:14 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc6256f66a0; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7fc625822c90:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc62582e000; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc62574fd00; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7fc625822c90:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'> to: /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~Me8kzx
+2020-02-23 03:40:14 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'AC43D256C5E42D8C7D329CAEDF9BC2D17F470BC6' '--entitlements' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~Me8kzx' '--preserve-metadata=identifier,flags,runtime' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftCoreGraphics.dylib'
+2020-02-23 03:40:15 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2020-02-23 03:40:15 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2020-02-23 03:40:15 +0000  /usr/bin/codesign exited with 0
+2020-02-23 03:40:15 +0000  Entitlements for <IDEDistributionItem: 0x7fc6256f1a00; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x7fc61593cc60:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc625715290; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6246a2330; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x7fc61593cc60:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'>: {
+}
+2020-02-23 03:40:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc6256f1a00; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x7fc61593cc60:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc625715290; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6154f2f50; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x7fc61593cc60:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'> to: /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~fyRzas
+2020-02-23 03:40:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'AC43D256C5E42D8C7D329CAEDF9BC2D17F470BC6' '--entitlements' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~fyRzas' '--preserve-metadata=identifier,flags,runtime' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftCoreImage.dylib'
+2020-02-23 03:40:15 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2020-02-23 03:40:15 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2020-02-23 03:40:15 +0000  /usr/bin/codesign exited with 0
+2020-02-23 03:40:15 +0000  Entitlements for <IDEDistributionItem: 0x7fc6256f73b0; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7fc6155630b0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc6256f0c60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc62576a5a0; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7fc6155630b0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>: {
+}
+2020-02-23 03:40:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc6256f73b0; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7fc6155630b0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc6256f0c60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc625757c70; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7fc6155630b0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'> to: /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~taPT7D
+2020-02-23 03:40:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'AC43D256C5E42D8C7D329CAEDF9BC2D17F470BC6' '--entitlements' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~taPT7D' '--preserve-metadata=identifier,flags,runtime' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftDarwin.dylib'
+2020-02-23 03:40:15 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2020-02-23 03:40:15 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2020-02-23 03:40:15 +0000  /usr/bin/codesign exited with 0
+2020-02-23 03:40:15 +0000  Entitlements for <IDEDistributionItem: 0x7fc6136b9ca0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7fc6251bc8b0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc625738ae0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc624647000; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7fc6251bc8b0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>: {
+}
+2020-02-23 03:40:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc6136b9ca0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7fc6251bc8b0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc625738ae0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc625153f10; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7fc6251bc8b0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'> to: /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~HkmtNf
+2020-02-23 03:40:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'AC43D256C5E42D8C7D329CAEDF9BC2D17F470BC6' '--entitlements' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~HkmtNf' '--preserve-metadata=identifier,flags,runtime' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftDispatch.dylib'
+2020-02-23 03:40:15 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2020-02-23 03:40:15 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2020-02-23 03:40:15 +0000  /usr/bin/codesign exited with 0
+2020-02-23 03:40:15 +0000  Entitlements for <IDEDistributionItem: 0x7fc62573e4f0; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7fc625715040:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc62459bb50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6257579e0; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7fc625715040:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>: {
+}
+2020-02-23 03:40:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc62573e4f0; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7fc625715040:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc62459bb50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc62575e6d0; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7fc625715040:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'> to: /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~PLgz7x
+2020-02-23 03:40:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'AC43D256C5E42D8C7D329CAEDF9BC2D17F470BC6' '--entitlements' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~PLgz7x' '--preserve-metadata=identifier,flags,runtime' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftFoundation.dylib'
+2020-02-23 03:40:15 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2020-02-23 03:40:15 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2020-02-23 03:40:15 +0000  /usr/bin/codesign exited with 0
+2020-02-23 03:40:15 +0000  Entitlements for <IDEDistributionItem: 0x7fc625738810; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x7fc6251b9600:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc625737450; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6257576f0; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x7fc6251b9600:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'>: {
+}
+2020-02-23 03:40:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc625738810; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x7fc6251b9600:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc625737450; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc625775820; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x7fc6251b9600:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'> to: /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~aF1xvs
+2020-02-23 03:40:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'AC43D256C5E42D8C7D329CAEDF9BC2D17F470BC6' '--entitlements' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~aF1xvs' '--preserve-metadata=identifier,flags,runtime' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftMetal.dylib'
+2020-02-23 03:40:15 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftMetal.dylib: replacing existing signature
+2020-02-23 03:40:15 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2020-02-23 03:40:15 +0000  /usr/bin/codesign exited with 0
+2020-02-23 03:40:15 +0000  Entitlements for <IDEDistributionItem: 0x7fc62572e5f0; bundleID='com.apple.dt.runtime.swiftNetwork', path='<DVTFilePath:0x7fc6256a64c0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftNetwork.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc625724650; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc625858390; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftNetwork', executablePath='<DVTFilePath:0x7fc6256a64c0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftNetwork.dylib'>', hardenedRuntime='0'>'>: {
+}
+2020-02-23 03:40:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc62572e5f0; bundleID='com.apple.dt.runtime.swiftNetwork', path='<DVTFilePath:0x7fc6256a64c0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftNetwork.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc625724650; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc625153f10; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftNetwork', executablePath='<DVTFilePath:0x7fc6256a64c0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftNetwork.dylib'>', hardenedRuntime='0'>'> to: /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~nVeGwe
+2020-02-23 03:40:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'AC43D256C5E42D8C7D329CAEDF9BC2D17F470BC6' '--entitlements' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~nVeGwe' '--preserve-metadata=identifier,flags,runtime' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftNetwork.dylib'
+2020-02-23 03:40:15 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftNetwork.dylib: replacing existing signature
+2020-02-23 03:40:15 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftNetwork.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftNetwork]
+2020-02-23 03:40:15 +0000  /usr/bin/codesign exited with 0
+2020-02-23 03:40:15 +0000  Entitlements for <IDEDistributionItem: 0x7fc62583c890; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7fc6255de8e0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc625738b20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc625778240; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7fc6255de8e0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>: {
+}
+2020-02-23 03:40:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc62583c890; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7fc6255de8e0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc625738b20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc62575fa50; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7fc6255de8e0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'> to: /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~WJQQYq
+2020-02-23 03:40:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'AC43D256C5E42D8C7D329CAEDF9BC2D17F470BC6' '--entitlements' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~WJQQYq' '--preserve-metadata=identifier,flags,runtime' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftObjectiveC.dylib'
+2020-02-23 03:40:15 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2020-02-23 03:40:15 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2020-02-23 03:40:15 +0000  /usr/bin/codesign exited with 0
+2020-02-23 03:40:15 +0000  Entitlements for <IDEDistributionItem: 0x7fc6256e89e0; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x7fc6256a63d0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc6251b4a70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc624647000; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x7fc6256a63d0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'>: {
+}
+2020-02-23 03:40:15 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc6256e89e0; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x7fc6256a63d0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc6251b4a70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6251b7430; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x7fc6256a63d0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'> to: /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~ngffIS
+2020-02-23 03:40:15 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'AC43D256C5E42D8C7D329CAEDF9BC2D17F470BC6' '--entitlements' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~ngffIS' '--preserve-metadata=identifier,flags,runtime' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftQuartzCore.dylib'
+2020-02-23 03:40:15 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2020-02-23 03:40:16 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2020-02-23 03:40:16 +0000  /usr/bin/codesign exited with 0
+2020-02-23 03:40:16 +0000  Entitlements for <IDEDistributionItem: 0x7fc6256f0240; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x7fc6255de030:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc6256f1a70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc625778240; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x7fc6255de030:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'>: {
+}
+2020-02-23 03:40:16 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc6256f0240; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x7fc6255de030:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc6256f1a70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc625774fa0; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x7fc6255de030:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'> to: /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~JBvMMf
+2020-02-23 03:40:16 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'AC43D256C5E42D8C7D329CAEDF9BC2D17F470BC6' '--entitlements' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~JBvMMf' '--preserve-metadata=identifier,flags,runtime' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftUIKit.dylib'
+2020-02-23 03:40:16 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftUIKit.dylib: replacing existing signature
+2020-02-23 03:40:16 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2020-02-23 03:40:16 +0000  /usr/bin/codesign exited with 0
+2020-02-23 03:40:16 +0000  Entitlements for <IDEDistributionItem: 0x7fc6256d3f60; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x7fc6242e5c10:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc625713b20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc625860ac0; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x7fc6242e5c10:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'>: {
+}
+2020-02-23 03:40:16 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc6256d3f60; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x7fc6242e5c10:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc625713b20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc625153f10; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='(null)', teamID='4544X88DQ4', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x7fc6242e5c10:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'> to: /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~Bjf3i9
+2020-02-23 03:40:16 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'AC43D256C5E42D8C7D329CAEDF9BC2D17F470BC6' '--entitlements' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~Bjf3i9' '--preserve-metadata=identifier,flags,runtime' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftos.dylib'
+2020-02-23 03:40:16 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftos.dylib: replacing existing signature
+2020-02-23 03:40:16 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2020-02-23 03:40:16 +0000  /usr/bin/codesign exited with 0
+2020-02-23 03:40:16 +0000  Entitlements for <IDEDistributionItem: 0x7fc62459c890; bundleID='com.kinefinity.camera', path='<DVTFilePath:0x7fc6242e1de0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc625738b60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc625760360; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='{
+    "application-identifier" = "4544X88DQ4.com.kinefinity.camera";
+    "com.apple.developer.team-identifier" = 4544X88DQ4;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "4544X88DQ4.com.kinefinity.camera"
+    );
+}', teamID='4544X88DQ4', identifier='com.kinefinity.camera', executablePath='<DVTFilePath:0x7fc624671eb0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Kinefinity'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "4544X88DQ4.com.kinefinity.camera";
+    "com.apple.developer.team-identifier" = 4544X88DQ4;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "4544X88DQ4.com.kinefinity.camera"
+    );
+}
+2020-02-23 03:40:16 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc62459c890; bundleID='com.kinefinity.camera', path='<DVTFilePath:0x7fc6242e1de0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc625738b60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc6257a0100; name='Apple Development: 晨光 潘 (4JLUC5377V)', hash='6DE4DA8036427E6E6D057E4CBE8FAD75A1BB06E4', serialNumber='4E35EAB31DE63B9D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-02-10 07:18:15 +0000''>', entitlements='{
+    "application-identifier" = "4544X88DQ4.com.kinefinity.camera";
+    "com.apple.developer.team-identifier" = 4544X88DQ4;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "4544X88DQ4.com.kinefinity.camera"
+    );
+}', teamID='4544X88DQ4', identifier='com.kinefinity.camera', executablePath='<DVTFilePath:0x7fc624671eb0:'/Users/pcg/Library/Developer/Xcode/Archives/2020-02-23/kinecam 2020-2-23, 11.35 AM.xcarchive/Products/Applications/Kinefinity.app/Kinefinity'>', hardenedRuntime='0'>'> to: /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~cUaZKk
+2020-02-23 03:40:16 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'AC43D256C5E42D8C7D329CAEDF9BC2D17F470BC6' '--entitlements' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/entitlements~~~cUaZKk' '--preserve-metadata=identifier,flags,runtime' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app'
+2020-02-23 03:40:16 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app: replacing existing signature
+2020-02-23 03:40:16 +0000  /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root/Payload/Kinefinity.app: signed app bundle with Mach-O thin (arm64) [com.kinefinity.camera]
+2020-02-23 03:40:16 +0000  /usr/bin/codesign exited with 0
+2020-02-23 03:40:16 +0000  Processing step: IDEDistributionZipODRItemStep
+2020-02-23 03:40:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-02-23 03:40:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-02-23 03:40:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-02-23 03:40:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-02-23 03:40:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-02-23 03:40:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-02-23 03:40:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-02-23 03:40:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-02-23 03:40:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-02-23 03:40:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-02-23 03:40:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-02-23 03:40:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-02-23 03:40:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-02-23 03:40:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-02-23 03:40:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-02-23 03:40:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-02-23 03:40:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-02-23 03:40:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-02-23 03:40:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-02-23 03:40:16 +0000  Processing step: IDEDistributionCreateIPAStep
+2020-02-23 03:40:16 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root' '/var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Packages/kinecam.ipa'
+2020-02-23 03:40:16 +0000  >>> Copying /var/folders/c3/617l6s0j5kxcv8vxh5nb71q80000gn/T/XcodeDistPipeline.~~~hAayKJ/Root 
+2020-02-23 03:40:16 +0000  copying file ./Payload/Kinefinity.app/_CodeSignature/CodeResources ... 
+2020-02-23 03:40:16 +0000  16181 bytes for ./Payload/Kinefinity.app/_CodeSignature/CodeResources
+2020-02-23 03:40:16 +0000  copying file ./Payload/Kinefinity.app/AppIcon60x60@2x.png ... 
+2020-02-23 03:40:16 +0000  2905 bytes for ./Payload/Kinefinity.app/AppIcon60x60@2x.png
+2020-02-23 03:40:16 +0000  copying file ./Payload/Kinefinity.app/Base.lproj/Main.storyboardc/6pN-nh-odN-view-HGB-CC-Rcm.nib/objects-13.0+.nib ... 
+2020-02-23 03:40:16 +0000  18754 bytes for ./Payload/Kinefinity.app/Base.lproj/Main.storyboardc/6pN-nh-odN-view-HGB-CC-Rcm.nib/objects-13.0+.nib
+2020-02-23 03:40:16 +0000  copying file ./Payload/Kinefinity.app/Base.lproj/Main.storyboardc/6pN-nh-odN-view-HGB-CC-Rcm.nib/runtime.nib ... 
+2020-02-23 03:40:16 +0000  18747 bytes for ./Payload/Kinefinity.app/Base.lproj/Main.storyboardc/6pN-nh-odN-view-HGB-CC-Rcm.nib/runtime.nib
+2020-02-23 03:40:16 +0000  copying file ./Payload/Kinefinity.app/Base.lproj/Main.storyboardc/recordViewController.nib/objects-13.0+.nib ... 
+2020-02-23 03:40:16 +0000  1510 bytes for ./Payload/Kinefinity.app/Base.lproj/Main.storyboardc/recordViewController.nib/objects-13.0+.nib
+copying file ./Payload/Kinefinity.app/Base.lproj/Main.storyboardc/recordViewController.nib/runtime.nib ... 
+2020-02-23 03:40:16 +0000  1510 bytes for ./Payload/Kinefinity.app/Base.lproj/Main.storyboardc/recordViewController.nib/runtime.nib
+copying file ./Payload/Kinefinity.app/Base.lproj/Main.storyboardc/historyViewController.nib/objects-13.0+.nib ... 
+2020-02-23 03:40:16 +0000  1123 bytes for ./Payload/Kinefinity.app/Base.lproj/Main.storyboardc/historyViewController.nib/objects-13.0+.nib
+2020-02-23 03:40:16 +0000  copying file ./Payload/Kinefinity.app/Base.lproj/Main.storyboardc/historyViewController.nib/runtime.nib ... 
+2020-02-23 03:40:16 +0000  1123 bytes for ./Payload/Kinefinity.app/Base.lproj/Main.storyboardc/historyViewController.nib/runtime.nib
+copying file ./Payload/Kinefinity.app/Base.lproj/Main.storyboardc/qdO-Am-WjT-view-8cc-Gl-Omi.nib/objects-13.0+.nib ... 
+2020-02-23 03:40:16 +0000  31719 bytes for ./Payload/Kinefinity.app/Base.lproj/Main.storyboardc/qdO-Am-WjT-view-8cc-Gl-Omi.nib/objects-13.0+.nib
+2020-02-23 03:40:16 +0000  copying file ./Payload/Kinefinity.app/Base.lproj/Main.storyboardc/qdO-Am-WjT-view-8cc-Gl-Omi.nib/runtime.nib ... 
+2020-02-23 03:40:16 +0000  31721 bytes for ./Payload/Kinefinity.app/Base.lproj/Main.storyboardc/qdO-Am-WjT-view-8cc-Gl-Omi.nib/runtime.nib
+2020-02-23 03:40:16 +0000  copying file ./Payload/Kinefinity.app/Base.lproj/Main.storyboardc/Vsy-fe-zI3-view-sYv-ZG-GCk.nib/objects-13.0+.nib ... 
+2020-02-23 03:40:16 +0000  23207 bytes for ./Payload/Kinefinity.app/Base.lproj/Main.storyboardc/Vsy-fe-zI3-view-sYv-ZG-GCk.nib/objects-13.0+.nib
+copying file ./Payload/Kinefinity.app/Base.lproj/Main.storyboardc/Vsy-fe-zI3-view-sYv-ZG-GCk.nib/runtime.nib ... 
+2020-02-23 03:40:16 +0000  23218 bytes for ./Payload/Kinefinity.app/Base.lproj/Main.storyboardc/Vsy-fe-zI3-view-sYv-ZG-GCk.nib/runtime.nib
+copying file ./Payload/Kinefinity.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2020-02-23 03:40:16 +0000  325 bytes for ./Payload/Kinefinity.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/Kinefinity.app/Base.lproj/Main.storyboardc/panelViewController.nib/objects-13.0+.nib ... 
+2020-02-23 03:40:16 +0000  1041 bytes for ./Payload/Kinefinity.app/Base.lproj/Main.storyboardc/panelViewController.nib/objects-13.0+.nib
+copying file ./Payload/Kinefinity.app/Base.lproj/Main.storyboardc/panelViewController.nib/runtime.nib ... 
+2020-02-23 03:40:16 +0000  1041 bytes for ./Payload/Kinefinity.app/Base.lproj/Main.storyboardc/panelViewController.nib/runtime.nib
+2020-02-23 03:40:16 +0000  copying file ./Payload/Kinefinity.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib ... 
+2020-02-23 03:40:16 +0000  2428 bytes for ./Payload/Kinefinity.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib
+copying file ./Payload/Kinefinity.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib ... 
+2020-02-23 03:40:16 +0000  2430 bytes for ./Payload/Kinefinity.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib
+2020-02-23 03:40:16 +0000  copying file ./Payload/Kinefinity.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib ... 
+2020-02-23 03:40:16 +0000  896 bytes for ./Payload/Kinefinity.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib
+copying file ./Payload/Kinefinity.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib ... 
+2020-02-23 03:40:16 +0000  896 bytes for ./Payload/Kinefinity.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib
+2020-02-23 03:40:16 +0000  copying file ./Payload/Kinefinity.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/Kinefinity.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2020-02-23 03:40:16 +0000  copying file ./Payload/Kinefinity.app/Assets.car ... 
+2020-02-23 03:40:16 +0000  698511 bytes for ./Payload/Kinefinity.app/Assets.car
+copying file ./Payload/Kinefinity.app/AppIcon76x76@2x~ipad.png ... 
+2020-02-23 03:40:16 +0000  3732 bytes for ./Payload/Kinefinity.app/AppIcon76x76@2x~ipad.png
+2020-02-23 03:40:16 +0000  copying file ./Payload/Kinefinity.app/Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/Kinefinity.app/Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources
+copying file ./Payload/Kinefinity.app/Frameworks/SwiftyJSON.framework/SwiftyJSON ... 
+2020-02-23 03:40:16 +0000  383904 bytes for ./Payload/Kinefinity.app/Frameworks/SwiftyJSON.framework/SwiftyJSON
+copying file ./Payload/Kinefinity.app/Frameworks/SwiftyJSON.framework/Info.plist ... 
+2020-02-23 03:40:16 +0000  742 bytes for ./Payload/Kinefinity.app/Frameworks/SwiftyJSON.framework/Info.plist
+copying file ./Payload/Kinefinity.app/Frameworks/libswiftCoreImage.dylib ... 
+2020-02-23 03:40:16 +0000  253648 bytes for ./Payload/Kinefinity.app/Frameworks/libswiftCoreImage.dylib
+copying file ./Payload/Kinefinity.app/Frameworks/libswiftObjectiveC.dylib ... 
+2020-02-23 03:40:16 +0000  302640 bytes for ./Payload/Kinefinity.app/Frameworks/libswiftObjectiveC.dylib
+2020-02-23 03:40:16 +0000  copying file ./Payload/Kinefinity.app/Frameworks/CocoaMQTT.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/Kinefinity.app/Frameworks/CocoaMQTT.framework/_CodeSignature/CodeResources
+copying file ./Payload/Kinefinity.app/Frameworks/CocoaMQTT.framework/CocoaMQTT ... 
+2020-02-23 03:40:16 +0000  441088 bytes for ./Payload/Kinefinity.app/Frameworks/CocoaMQTT.framework/CocoaMQTT
+copying file ./Payload/Kinefinity.app/Frameworks/CocoaMQTT.framework/Info.plist ... 
+2020-02-23 03:40:16 +0000  740 bytes for ./Payload/Kinefinity.app/Frameworks/CocoaMQTT.framework/Info.plist
+copying file ./Payload/Kinefinity.app/Frameworks/libswiftCore.dylib ... 
+2020-02-23 03:40:17 +0000  16915040 bytes for ./Payload/Kinefinity.app/Frameworks/libswiftCore.dylib
+copying file ./Payload/Kinefinity.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2020-02-23 03:40:17 +0000  646848 bytes for ./Payload/Kinefinity.app/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Payload/Kinefinity.app/Frameworks/libswiftUIKit.dylib ... 
+2020-02-23 03:40:17 +0000  477152 bytes for ./Payload/Kinefinity.app/Frameworks/libswiftUIKit.dylib
+copying file ./Payload/Kinefinity.app/Frameworks/libswiftMetal.dylib ... 
+2020-02-23 03:40:17 +0000  298096 bytes for ./Payload/Kinefinity.app/Frameworks/libswiftMetal.dylib
+copying file ./Payload/Kinefinity.app/Frameworks/libswiftDispatch.dylib ... 
+2020-02-23 03:40:17 +0000  1018912 bytes for ./Payload/Kinefinity.app/Frameworks/libswiftDispatch.dylib
+copying file ./Payload/Kinefinity.app/Frameworks/libswiftos.dylib ... 
+2020-02-23 03:40:17 +0000  299424 bytes for ./Payload/Kinefinity.app/Frameworks/libswiftos.dylib
+copying file ./Payload/Kinefinity.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2020-02-23 03:40:17 +0000  253792 bytes for ./Payload/Kinefinity.app/Frameworks/libswiftCoreFoundation.dylib
+2020-02-23 03:40:17 +0000  copying file ./Payload/Kinefinity.app/Frameworks/Starscream.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/Kinefinity.app/Frameworks/Starscream.framework/_CodeSignature/CodeResources
+copying file ./Payload/Kinefinity.app/Frameworks/Starscream.framework/Starscream ... 
+2020-02-23 03:40:17 +0000  628480 bytes for ./Payload/Kinefinity.app/Frameworks/Starscream.framework/Starscream
+copying file ./Payload/Kinefinity.app/Frameworks/Starscream.framework/Info.plist ... 
+2020-02-23 03:40:17 +0000  742 bytes for ./Payload/Kinefinity.app/Frameworks/Starscream.framework/Info.plist
+copying file ./Payload/Kinefinity.app/Frameworks/CocoaAsyncSocket.framework/_CodeSignature/CodeResources ... 
+2020-02-23 03:40:17 +0000  1798 bytes for ./Payload/Kinefinity.app/Frameworks/CocoaAsyncSocket.framework/_CodeSignature/CodeResources
+copying file ./Payload/Kinefinity.app/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket ... 
+2020-02-23 03:40:17 +0000  425408 bytes for ./Payload/Kinefinity.app/Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket
+copying file ./Payload/Kinefinity.app/Frameworks/CocoaAsyncSocket.framework/Info.plist ... 
+2020-02-23 03:40:17 +0000  756 bytes for ./Payload/Kinefinity.app/Frameworks/CocoaAsyncSocket.framework/Info.plist
+copying file ./Payload/Kinefinity.app/Frameworks/libswiftDarwin.dylib ... 
+2020-02-23 03:40:17 +0000  369728 bytes for ./Payload/Kinefinity.app/Frameworks/libswiftDarwin.dylib
+copying file ./Payload/Kinefinity.app/Frameworks/libswiftQuartzCore.dylib ... 
+2020-02-23 03:40:17 +0000  256864 bytes for ./Payload/Kinefinity.app/Frameworks/libswiftQuartzCore.dylib
+2020-02-23 03:40:17 +0000  copying file ./Payload/Kinefinity.app/Frameworks/SwiftyBeaver.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/Kinefinity.app/Frameworks/SwiftyBeaver.framework/_CodeSignature/CodeResources
+copying file ./Payload/Kinefinity.app/Frameworks/SwiftyBeaver.framework/SwiftyBeaver ... 
+2020-02-23 03:40:17 +0000  621840 bytes for ./Payload/Kinefinity.app/Frameworks/SwiftyBeaver.framework/SwiftyBeaver
+copying file ./Payload/Kinefinity.app/Frameworks/SwiftyBeaver.framework/Info.plist ... 
+2020-02-23 03:40:17 +0000  746 bytes for ./Payload/Kinefinity.app/Frameworks/SwiftyBeaver.framework/Info.plist
+copying file ./Payload/Kinefinity.app/Frameworks/libswiftNetwork.dylib ... 
+2020-02-23 03:40:17 +0000  1231376 bytes for ./Payload/Kinefinity.app/Frameworks/libswiftNetwork.dylib
+copying file ./Payload/Kinefinity.app/Frameworks/libswiftFoundation.dylib ... 
+2020-02-23 03:40:17 +0000  8479552 bytes for ./Payload/Kinefinity.app/Frameworks/libswiftFoundation.dylib
+copying file ./Payload/Kinefinity.app/embedded.mobileprovision ... 
+2020-02-23 03:40:17 +0000  8067 bytes for ./Payload/Kinefinity.app/embedded.mobileprovision
+copying file ./Payload/Kinefinity.app/Info.plist ... 
+1523 bytes for ./Payload/Kinefinity.app/Info.plist
+copying file ./Payload/Kinefinity.app/PkgInfo ... 
+8 bytes for ./Payload/Kinefinity.app/PkgInfo
+copying file ./Payload/Kinefinity.app/Kinefinity ... 
+2020-02-23 03:40:17 +0000  3737536 bytes for ./Payload/Kinefinity.app/Kinefinity
+2020-02-23 03:40:17 +0000  /usr/bin/ditto exited with 0
+2020-02-23 03:40:17 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2020-02-23 03:40:17 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2020-02-23 03:40:17 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2020-02-23 03:40:18 +0000  Processing step: IDEDistributionCreateManifestStep
